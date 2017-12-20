@@ -1,11 +1,9 @@
-- name: "E-Commerce"
+- name: "Lawn and Landscape"
   icon: "shopping-cart"
-  description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-
-- name: "Responsive Design"
+  description: "Our commercial fleet handles large or small contracts with ease and we're able to keep your property beautiful with your landscaping needs."
+- name: "Snow Removal"
   icon: "laptop"
-  description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-
-- name: "Web Security"
-  icon: "lock"
-  description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+  description: "We provide peace-of-mind for area churches, schools, businesses, government offices, and local residents when the weather is at its worst."
+- name: "Renovations, Remodelling, General Contracting"
+  icon: "fa-home"
+  description: "We handle everything from historic renovations and commercial remodelling to custom-taylored development."
