@@ -1,20 +1,13 @@
-- name: "Kay Garland"
-  bio: "Lead Designer"
-  twitter: konklone
-  facebook: konklone
-  linkedin: konklone
+- name: "Bob"
+  bio: "Owner"
+# this is from linkedin url
+  linkedin: bob-stevens-9017b581
   photo: 1.jpg
 
-- name: "Larry Parker"
-  bio: "Lead Marketer"
-  twitter: parkr
-  facebook: parkr
-  linkedin: parkr
-  photo: 2.jpg
-
-- name: "Diana Pertersen"
-  bio: "Lead Developer"
-  twitter: liufengyun
-  facebook: liufengyun
-  linkedin: liufengyun
+- name: "Sandy"
+  bio: "The Boss"
   photo: 3.jpg
+
+- name: "Sadie"
+  bio: "Happiness Guru"
+  photo: 2.jpg
