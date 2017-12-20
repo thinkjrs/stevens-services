@@ -1,4 +1,4 @@
-- order: 001
+- order: 005
   name: "Enterprise Maintenance"
   category: "Exterior and Interior"  
   date: "July 2014 - ongoing"
@@ -34,7 +34,7 @@
   claim: "Out-do your neighbors this year with a gorgeous new landscape"
   call-to-action: "Does your landscaping need an update? Give us a call."
 
-- order: 004
+- order: 001
   name: "Nasty Weather"
   category: "Snow and Ice Removal"
   date: "October 2015"
@@ -46,7 +46,7 @@
   claim: "We make sure your property is safe during adverse weather"
   call-to-action: "Are you ready for mother nature's winterly wrath? Give us a call."
 
-- order: 005
+- order: 004
   name: "Commercial Remodel"
   category: "Interior"
   date: "November 2013"
