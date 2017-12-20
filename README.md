@@ -28,19 +28,19 @@ We need image content that's royalty free and high quality. Find images roughly 
 These will obviously be replaced with real/updated content onces the site is revealed at xmas! For now we'll setup with stock photos and our text content underneath general things I know he's done. 
 
 1. Enterprise Maintenance - Local housing authority
-		* image of nicely manicured large apartment complex
+	* image of nicely manicured large apartment complex
 2. Historic Barn Renovation
-		* image of a beautiful old barn
+	* image of a beautiful old barn
 3. Residential Landscape
-		* image of a nice looking house with good landscaping
-		* might be enough just to search landscaping alone
+	* image of a nice looking house with good landscaping
+	* might be enough just to search landscaping alone
 4. Snow removal
-		* image of a truck/plow in the snow?
-		* I'm iffy on this as a concept since these are 'portfolio pieces'
+	* image of a truck/plow in the snow?
+	* I'm iffy on this as a concept since these are 'portfolio pieces'
 5. Interior Remodel - commercial
-		* image of a simple but sleak office, new looking!
+	* image of a simple but sleak office, new looking!
 6. Interior Remodel - residential
-		* image of a good looking kitchen or bathroom remodel
+	* image of a good looking kitchen or bathroom remodel
 
 **Useful sites**
 
