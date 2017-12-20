@@ -1,13 +1,13 @@
 - order: 001
   name: "Enterprise Maintenance"
-  category: "Exterior and interior upkeep, maintenance, and renovation"
+  category: "Enterprise exterior and interior upkeep, maintenance, and renovation"
   date: "July 2014 - ongoing"
   client: "Local Government Client"
 #  web: "http://"
   photo: "roundicons.png"
-  img-alt: "Enterprise exterior and interior upkeep, maintenance, and renovations"
+  img-alt: "Exterior and Interior"
   id: "EnterpriseMaintenance"
-  description: "We began working on this project as an add on to their local maintenance team and have grown to handle all interior and exterior maintenance, upkeep, and grounds duties."
+  description: "We began working on this project as an add-on to their local maintenance team and have grown to handle all interior and exterior maintenance, upkeep, and grounds duties."
   claim: "We give peace of mind to commercial property managers"
   call-to-action: "Have a property that needs help? Give us a call."
 
