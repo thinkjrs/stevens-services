@@ -44,5 +44,5 @@ These will obviously be replaced with real/updated content onces the site is rev
 
 **Useful sites**
 
-[www.pixabay.com]()
+[www.pixabay.com](https://pixabay.com)
 
