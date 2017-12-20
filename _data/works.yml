@@ -1,15 +1,14 @@
-- order: 005
-  name: "Enterprise Maintenance"
-  category: "Exterior and Interior"  
-  date: "July 2014 - ongoing"
-  client: "Local Government Client"
-#  web: "http://"
-  photo: "roundicons.png"
-  img-alt: "Exterior and Interior"
-  id: "EnterpriseMaintenance"
-  description: "We began working on this project as an add-on to their local maintenance team and have grown to handle all interior and exterior maintenance, upkeep, and grounds duties."
-  claim: "We give peace of mind to commercial property managers"
-  call-to-action: "Have a property that needs help? Give us a call."
+- order: 001
+  name: "Nasty Weather"
+  category: "Snow and Ice Removal"
+  date: "October 2015"
+  client: "Local church"
+  photo: "golden.png"
+  img-alt: "Snow and ice removal services for local church"
+  id: "portfolioModal04"
+  description: "As our neighbors, we've worked with the local church for nearly ten years, providing consistent, promptly snow and ice removal services so their consituents may attend services safely."
+  claim: "We make sure your property is safe during adverse weather"
+  call-to-action: "Are you ready for mother nature's winterly wrath? Give us a call."
 
 - order: 002
   name: "Historic Barn Renovation"
@@ -33,19 +32,6 @@
   description: "The Esery family reached out for exterior landscaping assistance in the winter of 2015. As spring began, we were able to get them on the schedule early and craft a beautiful landscape for the entire summer."
   claim: "Out-do your neighbors this year with a gorgeous new landscape"
   call-to-action: "Does your landscaping need an update? Give us a call."
-
-- order: 001
-  name: "Nasty Weather"
-  category: "Snow and Ice Removal"
-  date: "October 2015"
-  client: "Local church"
-  photo: "golden.png"
-  img-alt: "Snow and ice removal services for local church"
-  id: "portfolioModal04"
-  description: "As our neighbors, we've worked with the local church for nearly ten years, providing consistent, promptly snow and ice removal services so their consituents may attend services safely."
-  claim: "We make sure your property is safe during adverse weather"
-  call-to-action: "Are you ready for mother nature's winterly wrath? Give us a call."
-
 - order: 004
   name: "Commercial Remodel"
   category: "Interior"
@@ -58,6 +44,20 @@
   description: "Recondite reached out with a special requirement, speed. We were able to renovate their offices in under two weeks, minimizing their downtime and giving them a sleek, modern office space."
   claim: "Any renovation, any time. We'll make it happen."
   call-to-action: "Does your space need a refresher? Give us a call."
+
+- order: 005
+  name: "Enterprise Maintenance"
+  category: "Exterior and Interior"  
+  date: "July 2014 - ongoing"
+  client: "Local Government Client"
+#  web: "http://"
+  photo: "roundicons.png"
+  img-alt: "Exterior and Interior"
+  id: "EnterpriseMaintenance"
+  description: "We began working on this project as an add-on to their local maintenance team and have grown to handle all interior and exterior maintenance, upkeep, and grounds duties."
+  claim: "We give peace of mind to commercial property managers"
+  call-to-action: "Have a property that needs help? Give us a call."
+
 
 - order: 006
   name: "Residential Remodel"
