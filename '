@@ -3,7 +3,7 @@
 <header>
     <div class="container">
         <div class="intro-text">
-            <div class="intro-lead-in">Have a problem?</div>
+            <div class="intro-lead-in">Have a challenge?</div>
             <div class="intro-heading">We can help.</div>
             <a href="#services" class="page-scroll btn btn-xl">Tell Me More</a>
         </div>
