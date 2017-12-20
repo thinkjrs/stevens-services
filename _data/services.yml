@@ -2,7 +2,7 @@
   icon: "leaf"
   description: "Our commercial fleet handles large or small contracts with ease and we're able to keep your property beautiful with your landscaping needs."
 - name: "Snow Removal"
-  icon: "snowflake" # might be snowflake-o
+  icon: "snowflake-o" # might be snowflake-o
   description: "We provide peace-of-mind for area churches, schools, businesses, government offices, and local residents when the weather is at its worst."
 - name: "Renovations, Remodelling, General Contracting"
   icon: "home"
