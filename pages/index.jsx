@@ -5,10 +5,10 @@ export default function Home() {
         <div className="max-w-screen-xl mx-auto">
           <div className="relative z-10 pb-8 bg-white sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32">
             <svg
-              className="hidden lg:block absolute right-0 inset-y-0 h-full w-48 text-white transhtmlForm translate-x-1/2"
+              className="hidden lg:block absolute right-0 inset-y-0 h-full w-48 text-white transform translate-x-1/2"
               fill="currentColor"
               viewBox="0 0 100 100"
-              preserveaspectratio="none"
+              preserveAspectRatio="none"
             >
               <polygon points="50,0 100,0 50,100 0,100" />
             </svg>
@@ -82,7 +82,7 @@ export default function Home() {
                 </div>
               </nav>
             </div>
-            <div className="hidden absolute top-0 inset-x-0 p-2 transition transhtmlForm origin-top-right">
+            <div className="hidden absolute top-0 inset-x-0 p-2 transition transform origin-top-right">
               <div className="rounded-lg shadow-md">
                 <div
                   className="rounded-lg bg-white shadow-xs overflow-hidden"
@@ -209,7 +209,7 @@ export default function Home() {
       <div className="py-16 bg-gray-50 overflow-hidden lg:py-24">
         <div className="relative max-w-xl mx-auto px-4 sm:px-6 lg:px-8 lg:max-w-screen-xl">
           <svg
-            className="hidden lg:block absolute left-full transhtmlForm -translate-x-1/2 -translate-y-1/4"
+            className="hidden lg:block absolute left-full transform -translate-x-1/2 -translate-y-1/4"
             width="404"
             height="784"
             fill="none"
@@ -222,7 +222,7 @@ export default function Home() {
                 y="0"
                 width="20"
                 height="20"
-                patternunits="userSpaceOnUse"
+                patternUnits="userSpaceOnUse"
               >
                 <rect
                   className="text-gray-200"
@@ -357,7 +357,7 @@ export default function Home() {
             </div>
             <div className="mt-10 -mx-4 relative lg:mt-0">
               <svg
-                className="absolute left-1/2 transhtmlForm -translate-x-1/2 translate-y-16 lg:hidden"
+                className="absolute left-1/2 transform -translate-x-1/2 translate-y-16 lg:hidden"
                 width="784"
                 height="404"
                 fill="none"
@@ -370,7 +370,7 @@ export default function Home() {
                     y="0"
                     width="20"
                     height="20"
-                    patternunits="userSpaceOnUse"
+                    patternUnits="userSpaceOnUse"
                   >
                     <rect
                       className="text-gray-200"
@@ -397,7 +397,7 @@ export default function Home() {
             </div>
           </div>
           <svg
-            className="hidden lg:block absolute right-full transhtmlForm translate-x-1/2 translate-y-12"
+            className="hidden lg:block absolute right-full transform translate-x-1/2 translate-y-12"
             width="404"
             height="784"
             fill="none"
@@ -410,7 +410,7 @@ export default function Home() {
                 y="0"
                 width="20"
                 height="20"
-                patternunits="userSpaceOnUse"
+                patternUnits="userSpaceOnUse"
               >
                 <rect
                   className="text-gray-200"
@@ -504,7 +504,7 @@ export default function Home() {
               </div>
               <div className="mt-10 -mx-4 relative lg:mt-0 lg:col-start-1">
                 <svg
-                  className="absolute left-1/2 transhtmlForm -translate-x-1/2 translate-y-16 lg:hidden"
+                  className="absolute left-1/2 transform -translate-x-1/2 translate-y-16 lg:hidden"
                   width="784"
                   height="404"
                   fill="none"
@@ -517,7 +517,7 @@ export default function Home() {
                       y="0"
                       width="20"
                       height="20"
-                      patternunits="userSpaceOnUse"
+                      patternUnits="userSpaceOnUse"
                     >
                       <rect
                         className="text-gray-200"
@@ -551,7 +551,7 @@ export default function Home() {
         <div className="h-56 bg-indigo-600 sm:h-72 md:absolute md:left-0 md:h-full md:w-1/2">
           <img
             className="w-full h-full object-cover"
-            src="https://images.unsplash.com/photo-1525130413817-d45c1d127c42?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=htmlFormat&amp;fit=crop&amp;w=1920&amp;q=60&amp;blend=6875F5&amp;sat=-100&amp;blend-mode=multiply"
+            src="https://images.unsplash.com/photo-1525130413817-d45c1d127c42?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=1920&amp;q=60&amp;blend=6875F5&amp;sat=-100&amp;blend-mode=multiply"
             alt=""
           />
         </div>
@@ -660,7 +660,7 @@ export default function Home() {
               <div className="flex-shrink-0">
                 <img
                   className="h-48 w-full object-cover"
-                  src="https://images.unsplash.com/photo-1547586696-ea22b4d4235d?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=htmlFormat&amp;fit=crop&amp;w=1650&amp;q=80"
+                  src="https://images.unsplash.com/photo-1547586696-ea22b4d4235d?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=1650&amp;q=80"
                   alt=""
                 />
               </div>
@@ -688,7 +688,7 @@ export default function Home() {
                     <a href="#">
                       <img
                         className="h-10 w-10 rounded-full"
-                        src="https://images.unsplash.com/photo-1550525811-e5869dd03032?ixlib=rb-1.2.1&amp;auto=htmlFormat&amp;fit=facearea&amp;facepad=2&amp;w=256&amp;h=256&amp;q=80"
+                        src="https://images.unsplash.com/photo-1550525811-e5869dd03032?ixlib=rb-1.2.1&amp;auto=format&amp;fit=facearea&amp;facepad=2&amp;w=256&amp;h=256&amp;q=80"
                         alt=""
                       />
                     </a>
@@ -712,7 +712,7 @@ export default function Home() {
               <div className="flex-shrink-0">
                 <img
                   className="h-48 w-full object-cover"
-                  src="https://images.unsplash.com/photo-1492724441997-5dc865305da7?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=htmlFormat&amp;fit=crop&amp;w=1650&amp;q=80"
+                  src="https://images.unsplash.com/photo-1492724441997-5dc865305da7?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=1650&amp;q=80"
                   alt=""
                 />
               </div>
@@ -740,7 +740,7 @@ export default function Home() {
                     <a href="#">
                       <img
                         className="h-10 w-10 rounded-full"
-                        src="https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=htmlFormat&amp;fit=facearea&amp;facepad=2&amp;w=256&amp;h=256&amp;q=80"
+                        src="https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=facearea&amp;facepad=2&amp;w=256&amp;h=256&amp;q=80"
                         alt=""
                       />
                     </a>
@@ -767,7 +767,7 @@ export default function Home() {
       <section className="bg-white overflow-hidden">
         <div className="relative max-w-screen-xl mx-auto pt-20 pb-12 px-4 sm:px-6 lg:px-8 lg:py-20">
           <svg
-            className="absolute top-full left-0 transhtmlForm translate-x-80 -translate-y-24 lg:hidden"
+            className="absolute top-full left-0 transform translate-x-80 -translate-y-24 lg:hidden"
             width="784"
             height="404"
             fill="none"
@@ -780,7 +780,7 @@ export default function Home() {
                 y="0"
                 width="20"
                 height="20"
-                patternunits="userSpaceOnUse"
+                patternUnits="userSpaceOnUse"
               >
                 <rect
                   className="text-gray-200"
@@ -799,7 +799,7 @@ export default function Home() {
             />
           </svg>
           <svg
-            className="hidden lg:block absolute right-full top-1/2 transhtmlForm translate-x-1/2 -translate-y-1/2"
+            className="hidden lg:block absolute right-full top-1/2 transform translate-x-1/2 -translate-y-1/2"
             width="404"
             height="784"
             fill="none"
@@ -812,7 +812,7 @@ export default function Home() {
                 y="0"
                 width="20"
                 height="20"
-                patternunits="userSpaceOnUse"
+                patternUnits="userSpaceOnUse"
               >
                 <rect
                   className="text-gray-200"
@@ -834,13 +834,13 @@ export default function Home() {
             <div className="hidden lg:block lg:flex-shrink-0">
               <img
                 className="h-64 w-64 rounded-full xl:h-80 xl:w-80"
-                src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=htmlFormat&amp;fit=facearea&amp;facepad=2&amp;w=256&amp;h=256&amp;q=80"
+                src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=facearea&amp;facepad=2&amp;w=256&amp;h=256&amp;q=80"
                 alt=""
               />
             </div>
             <div className="relative lg:ml-10">
               <svg
-                className="absolute top-0 left-0 transhtmlForm -translate-x-8 -translate-y-24 h-36 w-36 text-indigo-200 opacity-50"
+                className="absolute top-0 left-0 transform -translate-x-8 -translate-y-24 h-36 w-36 text-indigo-200 opacity-50"
                 stroke="currentColor"
                 fill="none"
                 viewBox="0 0 144 144"
@@ -1061,7 +1061,7 @@ export default function Home() {
           <div className="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
             <img
               className="h-56 w-full object-cover lg:absolute lg:h-full"
-              src="https://images.unsplash.com/photo-1556761175-4b46a572b786?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=htmlFormat&amp;fit=crop&amp;w=1567&amp;q=80"
+              src="https://images.unsplash.com/photo-1556761175-4b46a572b786?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=1567&amp;q=80"
               alt=""
             />
           </div>
@@ -1074,9 +1074,9 @@ export default function Home() {
               </h2>
               <p className="mt-4 text-lg leading-7 text-gray-500 sm:mt-3">
                 We&rsquo;d love to hear from you! Send us a message using the
-                htmlForm or email us. We&rsquo;d love to hear from you!
+                form or email us. We&rsquo;d love to hear from you!
               </p>
-              <htmlForm
+              <form
                 className="mt-9 grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8"
                 action="#"
                 method="POST"
@@ -1287,7 +1287,7 @@ export default function Home() {
                     Submit
                   </button>
                 </div>
-              </htmlForm>
+              </form>
             </div>
           </div>
         </div>
