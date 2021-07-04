@@ -11,7 +11,6 @@ module.exports = {
         'styled-jsx': {},
         'class-properties': {},
       },
-      '@babel/preset-react',
     ],
   ],
   plugins: [],
