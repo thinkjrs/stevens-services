@@ -1,5 +1,5 @@
 const aboutContent = {
-  sectionTitle: 'Trusted by customers from over 1000 jobs',
+  sectionTitle: 'Trusted by our customers for over a decade',
   sectionDescription:
     'Unparalleled quality of service has led to happy customers from all over. Our proof is in the pudding.',
   stats: {
