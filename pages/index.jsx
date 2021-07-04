@@ -10,6 +10,7 @@ import {
 } from '@heroicons/react/outline';
 import { ChevronDownIcon } from '@heroicons/react/solid';
 import Feature from '../components/Feature/Feature';
+import About from '../components/About/About';
 
 const heroContent = {
   heroTitle: 'Stevens Services',
@@ -287,6 +288,7 @@ export default function Example() {
 
         {/* More main page content here... */}
         <Feature />
+        <About />
       </main>
     </div>
   );
