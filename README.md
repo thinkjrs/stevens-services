@@ -1,52 +1,34 @@
-## TODO
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Changes.
+## Getting Started
 
-1. ~~update icons in services, home is done~~
-2. get rid of brand links before contact
-3. update info and visual content for team
-		describe the commercial nature of the fleet
-4. about timeline updates with visual content and correct timeline
-5. portfolio pieces-pages each need to be built
-6. images need to be optimized for web and filtered
-7. make domain https only
-8. mailserver setup internally on server and externally
-		-- need admin, bob, and sandy users
-9. specific contact form for the business
-		-- incl. subforms for lawn/landscape, snow, gc
-10. works/portfolio (see below)
+First, run the development server:
 
+```bash
+npm run dev
+# or
+yarn dev
+```
 
-#### Works [in portfolio]
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-located in `_data/works.yml`
+You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 
-**Image content** 
+[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
 
-We need image content that's royalty free and high quality. Find images roughly the same size/dimension as the current, found in `assets/img/porfolio`.
+The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
-**Works**
+## Learn More
 
-These will obviously be replaced with real/updated content onces the site is revealed at xmas! For now we'll setup with stock photos and our text content underneath general things I know he's done. 
+To learn more about Next.js, take a look at the following resources:
 
-1. Enterprise Maintenance - Local housing authority
-	* image of nicely manicured large apartment complex
-2. Historic Barn Renovation
-	* image of a beautiful old barn
-3. Residential Landscape
-	* image of a nice looking house with good landscaping
-	* might be enough just to search landscaping alone
-4. Snow removal
-	* image of a truck/plow in the snow?
-	* I'm iffy on this as a concept since these are 'portfolio pieces'
-5. Interior Remodel - commercial
-	* image of a simple but sleak office, new looking!
-6. Interior Remodel - residential
-	* image of a good looking kitchen or bathroom remodel
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-**Useful sites**
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-[www.pixabay.com](https://pixabay.com)
+## Deploy on Vercel
 
-**FirstforSarah!**
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Something
-
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
