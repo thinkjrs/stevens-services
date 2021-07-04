@@ -11,6 +11,7 @@ import {
 import { ChevronDownIcon } from '@heroicons/react/solid';
 import Feature from '../components/Feature/Feature';
 import About from '../components/About/About';
+import Footer from '../components/Footer/Footer';
 
 const heroContent = {
   heroTitle: 'Stevens Services',
@@ -290,6 +291,7 @@ export default function Example() {
         <Feature />
         <About />
       </main>
+      <Footer />
     </div>
   );
 }
