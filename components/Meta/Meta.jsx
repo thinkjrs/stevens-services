@@ -1,5 +1,4 @@
 import React from 'react';
-import Head from 'next/head';
 
 export default function Meta() {
   const description = 'Stevens Services does lawn and landscape, snow and ice removal, in addition to remodeling and new construction throughout the Greater Kansas City area. Call us at 816-824-7289.';
@@ -8,7 +7,7 @@ export default function Meta() {
   const imageUrl = 'https://res.cloudinary.com/thinkjrs-dev/image/upload/c_scale,w_400/v1625448345/stevens-services/IMG_2414A_zexmov.jpg';
 
   return (
-    <Head>
+    <>
       <link rel="apple-touch-icon" sizes="180x180" href="/favicon/180.png" />
       <link rel="icon" type="image/png" sizes="32x32" href="/favicon/32.png" />
       <link rel="icon" type="image/png" sizes="16x16" href="/favicon/16.png" />
@@ -30,6 +29,6 @@ export default function Meta() {
       <meta name="twitter:card" content="summary" />
       <meta name="twitter:url" content={link} />
       <meta name="twitter:image" content={imageUrl} />
-    </Head>
+    </>
   );
 }
