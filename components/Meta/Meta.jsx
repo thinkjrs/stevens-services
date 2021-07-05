@@ -29,6 +29,7 @@ export default function Meta() {
       <meta name="twitter:card" content="summary" />
       <meta name="twitter:url" content={link} />
       <meta name="twitter:image" content={imageUrl} />
+      <title>{title}</title>
     </>
   );
 }
