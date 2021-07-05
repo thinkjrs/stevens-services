@@ -274,7 +274,7 @@ export default function Example() {
                     {/* TODO - Add email/form solution */}
                     <a
                       href={heroContent?.heroButtonSrc}
-                      className="flex uppercase items-center justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-gray-700 bg-white hover:bg-gray-50 sm:px-8"
+                      className="flex uppercase items-center justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-black bg-white shadow-sm hover:bg-black hover:text-white sm:px-8"
                     >
                       {heroContent?.heroButtonText}
                     </a>
