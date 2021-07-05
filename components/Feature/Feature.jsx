@@ -3,28 +3,31 @@ import {
   SparklesIcon,
   ClipboardListIcon,
 } from '@heroicons/react/outline';
+import SVGQuote from '../SVGQuote/SVGQuote.jsx';
 
 const featureContent = {
-  sectionTitle: `Call us. Then relax and sit back.`,
-  sectionDescription: `We offer turn key, flexible solutions that have worked for customers for over a decade. Let us handle your latest lawn care, landscaping, snow removal, de-icing, new construction, old construction, or renovation needs. With no project too big or small, we have the team to back it.`,
-  sectionButtonText: `Let's chat. Call us at (816) 824-7289`,
-  sectionButtonSrc: `tel:8168247289`,
+  lawnLandscapeTitle: `Lawn and Landscape Services`,
+  lawnLandscapeDescription: `We offer turn key, flexible residencial and commercial lawn and landscape services. Keep your property perfectly maintained. Big or small, our team is ready to help.`,
+  lawnLandscapeButtonText: `Let's chat. Call us at (816) 824-7289`,
+  lawnLandscapeButtonSrc: `tel:8168247289`,
   landscapeSrc: '/images/IMG_8836.jpg',
-  landscapeAlt: 'Landscaping done right by Stevens Services.',
+  landscapeAlt: 'Simple landscaping done right by Stevens Services.',
   constructionSrc: '/images/20201029_115456_resized_avvnx7.jpg',
   constructionAlt:
     'New exterior deck construction by the Stevens Services team.',
-  constructionTitle: 'No job is too big or small',
-  constructionDescription: `We've seen it all and have the expertise to handle anything you can throw our way. We work with individuals, small businesses, large enterprises, and churches throughout the Grerater Kansas City area.`,
-  snowIceTitle: 'Scheduled and professional',
+  constructionTitle: 'Construction and Remodeling Services',
+  constructionDescription: `We've seen it all and have the expertise to handle anything you can throw our way. We work with individuals, small businesses, large enterprises, and churches/non-profits throughout the Kansas City metropolitan area.`,
+  snowIceTitle: 'Snow and Ice Services',
   snowIceDescription:
     'Snow removal, pre-treatment for ice storms, during-storm ice treatment, and post-storm cleanup. We are tough enough for anything mother nature can throw our way.',
   snowIceSrc: '/images/IMG_2411A_yctcla.jpg',
   snowIceAlt:
     'Our team has the tools, resources and experience to get handle any storm for any property.',
-  testimonialSrc: '',
-  testimonialAlt: '',
-  testimonialName: 'Marcia Hill, Digital Marketing Manager',
+  testimonialSrc: null,
+  testimonialAlt: null,
+  testimonialText:
+    'We are extremely happy with their work and have recommended them to multiple friends and family members!',
+  testimonialName: 'Debbie Jones',
 };
 export default function Feature() {
   return (
@@ -46,39 +49,46 @@ export default function Feature() {
               </div>
               <div className="mt-6">
                 <h2 className="text-3xl font-extrabold tracking-tight text-gray-900">
-                  {featureContent?.sectionTitle}
+                  {featureContent?.lawnLandscapeTitle}
                 </h2>
                 <p className="mt-4 text-lg text-gray-500">
-                  {featureContent?.sectionDescription}
+                  {featureContent?.lawnLandscapeDescription}
                 </p>
                 <div className="mt-6">
                   <a
-                    href={featureContent?.sectionButtonSrc}
+                    href={featureContent?.lawnLandscapeButtonSrc}
                     className="inline-flex px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-black hover:text-black hover:bg-gray-300"
                   >
-                    {featureContent?.sectionButtonText}
+                    {featureContent?.lawnLandscapeButtonText}
                   </a>
                 </div>
               </div>
             </div>
             <div className="mt-8 border-t border-gray-200 pt-6">
               <blockquote>
+                <SVGQuote />
                 <div>
-                  <p className="text-base text-gray-500">
-                    &ldquo;Cras velit quis eros eget rhoncus lacus ultrices sed
-                    diam. Sit orci risus aenean curabitur donec aliquet. Mi
-                    venenatis in euismod ut.&rdquo;
+                  <p className="pt-3 text-base italic text-gray-500">
+                    {featureContent?.testimonialText}
                   </p>
                 </div>
                 <footer className="mt-3">
                   <div className="flex items-center space-x-3">
                     <div className="flex-shrink-0">
-                      <img
-                        className="h-6 w-6 rounded-full"
-                        src={featureContent?.testimonialSrc}
-                        alt={featureContent?.testimonialAlt}
-                      />
+                      {featureContent?.testimonialSrc &&
+                      featureContent?.testimonialAlt ? (
+                        <img
+                          className="h-6 w-6 rounded-full"
+                          src={featureContent?.testimonialSrc}
+                          alt={featureContent?.testimonialAlt}
+                        />
+                      ) : null}
+
+                      <div className="text-base font-medium text-gray-700">
+                        {featureContent?.testimonialName}
+                      </div>
                     </div>
+
                     <div className="text-base font-medium text-gray-700"></div>
                   </div>
                 </footer>
@@ -120,10 +130,10 @@ export default function Feature() {
                 </p>
                 <div className="mt-6">
                   <a
-                    href={featureContent?.sectionButtonSrc}
+                    href={featureContent?.lawnLandscapeButtonSrc}
                     className="inline-flex px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-black hover:text-black hover:bg-gray-300"
                   >
-                    {featureContent?.sectionButtonText}
+                    {featureContent?.lawnLandscapeButtonText}
                   </a>
                 </div>
               </div>
@@ -164,10 +174,10 @@ export default function Feature() {
                 </p>
                 <div className="mt-6">
                   <a
-                    href={featureContent?.sectionButtonSrc}
+                    href={featureContent?.lawnLandscapeButtonSrc}
                     className="inline-flex px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-black hover:text-black hover:bg-gray-300"
                   >
-                    {featureContent?.sectionButtonText}
+                    {featureContent?.lawnLandscapeButtonText}
                   </a>
                 </div>
               </div>
