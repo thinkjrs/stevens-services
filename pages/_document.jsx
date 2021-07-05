@@ -20,6 +20,10 @@ class CustomDocument extends Document {
           <Meta />
         </Head>
         <body>
+          <title>
+            Stevens Services (816) 824-7289 | Lawn & Landscape, Snow & Ice,
+            Construction & Remodeling
+          </title>
           <Main />
           <NextScript />
         </body>
