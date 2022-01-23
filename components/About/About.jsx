@@ -4,7 +4,7 @@ const aboutContent = {
     'Unparalleled quality of service has led to happy customers from all over. Our proof is in the pudding.',
   stats: {
     firstTextLabel: 'Years of service',
-    firstDataLabel: '13',
+    firstDataLabel: '14',
     secondTextLabel: 'Satistfied customers',
     secondDataLabel: '1000+',
     thirdTextLabel: 'Snowstorms conquered',
