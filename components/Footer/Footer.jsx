@@ -1,7 +1,7 @@
 /* eslint-disable react/jsx-props-no-spreading */
 
 const footerContent = {
-  copyright: '© Stevens Services LLC 2021, All rights reserved.',
+  copyright: '© Stevens Services LLC 2022, All rights reserved.',
 };
 
 const navigation = {
