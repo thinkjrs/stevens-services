@@ -62,10 +62,7 @@ export default function Example() {
             <>
               <div className="flex justify-between items-center max-w-7xl mx-auto px-4 py-6 sm:px-6 md:justify-start md:space-x-10 lg:px-8">
                 <div className="flex items-left text-left justify-start lg:w-0 lg:flex-1">
-                  <a
-                    className="justify-start text-left -ml-32"
-                    href="tel:8168247289"
-                  >
+                  <a className="justify-start text-left" href="tel:8168247289">
                     <span className="sr-only">Stevens Services Logo</span>
                     <Logo />
                   </a>
