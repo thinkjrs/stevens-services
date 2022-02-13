@@ -35,6 +35,10 @@ export default function Carousel({}) {
         <h1 className="text-3xl font-extrabold sm:text-4xl">
           We pride ourselves on <span className="italic">quality</span> work
         </h1>
+        <p className="font-leading text-lg text-gray-800 py-4">
+          See a few of our jobs below and call us to book your free consultation
+          today.
+        </p>
         <div
           id="quality-work"
           className="px-4 md:px-20 lg:px-64 py-8 rounded-lg"
