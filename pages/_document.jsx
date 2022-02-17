@@ -1,7 +1,5 @@
 import Document, { Head, Html, Main, NextScript } from 'next/document';
 import Meta from '../components/Meta/Meta';
-import Script from 'next/script';
-
 class CustomDocument extends Document {
   static async getInitialProps(ctx) {
     const initialProps = await Document.getInitialProps(ctx);
@@ -16,20 +14,6 @@ class CustomDocument extends Document {
         {' '}
         <Head>
           <meta name="referrer" content={referrer} />
-          <Script
-            src="https://www.googletagmanager.com/gtag/js?id=G-5KMTCTNPHE"
-            strategy="afterInteractive"
-          />
-          <Script id="google-analytics" strategy="afterInteractive">
-            {`
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){window.dataLayer.push(arguments);}
-          gtag('js', new Date());
-
-          gtag('config', 'G-5KMTCTNPHE');
-        `}
-          </Script>
-
           <Meta />
         </Head>
         <body>

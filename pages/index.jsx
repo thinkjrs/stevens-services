@@ -1,5 +1,7 @@
 import { Fragment, useRef } from 'react';
 import { Popover, Transition } from '@headlessui/react';
+import Script from 'next/script';
+
 import {
   AnnotationIcon,
   ChatAlt2Icon,
@@ -57,6 +59,20 @@ function classNames(...classes) {
 export default function Example() {
   return (
     <div className="min-h-screen bg-white">
+      <Script
+        src="https://www.googletagmanager.com/gtag/js?id=G-5KMTCTNPHE"
+        strategy="afterInteractive"
+      />
+      <Script id="google-analytics" strategy="afterInteractive">
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){window.dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'G-5KMTCTNPHE');
+        `}
+      </Script>
+
       <header>
         <Popover className="relative bg-white">
           {({ open }) => (
