@@ -1,6 +1,7 @@
 {
   "name": "stevens-services",
   "version": "0.0.10",
+  "license": "UNLICENSED",
   "private": false,
   "scripts": {
     "dev": "next dev",
